@@ -1,0 +1,30 @@
+name: 'Run tests'
+description: 'Run unit tests.'
+
+inputs:
+  codacy-project-token:
+    description: 'Codacy project token.'
+    required: true
+
+runs:
+  using: 'composite'
+  steps:
+    - uses: actions/checkout@v3
+
+    - uses: myparcelnl/actions/yarn-install@v3
+      with:
+        node-version: 18
+
+    - name: 'Run publint'
+      shell: bash
+      run: npx -q publint
+
+    - name: 'Run tests'
+      shell: bash
+      run: yarn test:coverage
+
+    - uses: codecov/codecov-action@v3
+
+    - uses: codacy/codacy-coverage-reporter-action@v1
+      with:
+        project-token: ${{ inputs.codacy-project-token }}

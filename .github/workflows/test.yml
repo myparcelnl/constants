@@ -1,0 +1,21 @@
+name: 'Run tests 🧪'
+
+on:
+  pull_request:
+    branches:
+      - main
+
+  merge_group:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.event.pull_request.head.ref || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/test
+        with:
+          codacy-project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
