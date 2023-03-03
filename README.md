@@ -1,6 +1,6 @@
-# @myparcel/consts
+# @myparcel/constants
 
-[![npm](https://img.shields.io/npm/v/@myparcel/consts?labelColor=27272A&logoColor=FFFFFF&style=for-the-badge&color=CC3534&logo=npm)](https://www.npmjs.com/package/@myparcel/consts/)
+[![npm](https://img.shields.io/npm/v/@myparcel/constants?labelColor=27272A&logoColor=FFFFFF&style=for-the-badge&color=CC3534&logo=npm)](https://www.npmjs.com/package/@myparcel/constants/)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/myparcelnl/js-sdk?labelColor=27272A&style=for-the-badge)](https://github.com/myparcelnl/js-sdk/releases)
 
 This package contains various constant values used in the MyParcel ecosystem.
@@ -9,9 +9,9 @@ This package contains various constant values used in the MyParcel ecosystem.
 
 ```bash
 # using npm
-npm install @myparcel/consts
+npm install @myparcel/constants
 # or yarn
-yarn add @myparcel/consts
+yarn add @myparcel/constants
 # or pnpm
-pnpm add @myparcel/consts
+pnpm add @myparcel/constants
 ```
