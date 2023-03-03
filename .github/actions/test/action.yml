@@ -9,12 +9,6 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - uses: actions/checkout@v3
-
-    - uses: myparcelnl/actions/yarn-install@v3
-      with:
-        node-version: 18
-
     - name: 'Run publint'
       shell: bash
       run: npx -q publint

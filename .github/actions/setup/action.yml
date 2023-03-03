@@ -1,0 +1,18 @@
+name: 'Setup'
+description: 'Install node dependencies and create build'
+
+runs:
+  using: composite
+  steps:
+    - uses: myparcelnl/actions/yarn-install@v3
+      with:
+        node-version: 18
+
+    - name: 'Cache build'
+      uses: actions/cache@v3
+      with:
+        path: dist
+        key: ${{ runner.os }}-build-${{ hashFiles('package.json', 'yarn.lock', 'src/**') }}
+
+    - shell: bash
+      run: yarn run build
