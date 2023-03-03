@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "target": "esnext"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["**/*.spec.*"]
+}

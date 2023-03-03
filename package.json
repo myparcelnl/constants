@@ -1,0 +1,93 @@
+{
+  "name": "@myparcel/constants",
+  "version": "0.0.1",
+  "description": "Collection of constant values for use with the MyParcel API",
+  "keywords": [
+    "myparcel",
+    "constants"
+  ],
+  "repository": "github:myparcelnl/constants",
+  "license": "MIT",
+  "author": "Edie Lemoine <edie@myparcel.nl>",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./helpers": {
+      "types": "./dist/helpers/index.d.ts",
+      "import": "./dist/helpers/index.mjs",
+      "require": "./dist/helpers/index.js"
+    },
+    "./countries": {
+      "types": "./dist/countries/index.d.ts",
+      "import": "./dist/countries/index.mjs",
+      "require": "./dist/countries/index.js"
+    },
+    "./states": {
+      "types": "./dist/states/index.d.ts",
+      "import": "./dist/states/index.mjs",
+      "require": "./dist/states/index.js"
+    },
+    "./src": "./src"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup-node",
+    "build:dev": "NODE_ENV=development tsup-node",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:related": "vitest related",
+    "test:run": "vitest run",
+    "watch": "yarn build:dev --watch"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "eslint --fix --cache",
+      "sh -c \"yarn test:related\""
+    ],
+    "*.{md,yml}": "prettier --write",
+    "package.json": [
+      "prettier --write",
+      "sort-package-json",
+      "sh -c \"publint run\""
+    ]
+  },
+  "prettier": "@myparcel/prettier-config",
+  "release": {
+    "extends": "@myparcel/semantic-release-config/github-npm"
+  },
+  "dependencies": {
+    "@myparcel/ts-utils": "^1.7.0"
+  },
+  "devDependencies": {
+    "@myparcel-eslint/eslint-config-esnext": "^1.2.3",
+    "@myparcel-eslint/eslint-config-node": "^1.2.3",
+    "@myparcel-eslint/eslint-config-prettier": "^1.2.3",
+    "@myparcel-eslint/eslint-config-prettier-typescript": "^1.2.4",
+    "@myparcel/semantic-release-config": "^4.2.3",
+    "@tsconfig/recommended": "^1.0.2",
+    "@vitest/coverage-c8": "^0.29.2",
+    "eslint": "^8.35.0",
+    "fast-glob": "^3.2.12",
+    "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
+    "lint-staged": "^13.1.2",
+    "prettier": "^2.8.4",
+    "publint": "^0.1.9",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5",
+    "vitest": "^0.29.2"
+  },
+  "packageManager": "yarn@3.4.1",
+  "publishConfig": {
+    "access": "public"
+  }
+}
