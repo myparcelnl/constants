@@ -528,7 +528,9 @@ export const EU_COUNTRIES = [
   SWEDEN,
 ];
 
-// Countries with returned shipments enabled
+/**
+ * Countries with returned shipments enabled
+ */
 export const ERS_COUNTRIES = [
   AUSTRIA,
   BELGIUM,
