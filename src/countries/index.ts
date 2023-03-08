@@ -528,6 +528,34 @@ export const EU_COUNTRIES = [
   SWEDEN,
 ];
 
+// Countries with returned shipments enabled
+export const ERS_COUNTRIES = [
+  AUSTRIA,
+  BELGIUM,
+  CZECH_REPUBLIC,
+  ESTONIA,
+  FINLAND,
+  FRANCE,
+  GERMANY,
+  GREECE,
+  IRELAND,
+  ITALY,
+  LUXEMBOURG,
+  NETHERLANDS,
+  SLOVAKIA,
+  SLOVENIA,
+  SPAIN,
+  UNITED_KINGDOM,
+  MALTA,
+  PORTUGAL,
+  LATVIA,
+  LITHUANIA,
+  ROMANIA,
+  CROATIA,
+  HUNGARY,
+  BULGARIA,
+];
+
 export const ALL_COUNTRIES = [
   AFGHANISTAN,
   ALAND_ISLANDS,
