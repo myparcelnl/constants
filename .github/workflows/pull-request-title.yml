@@ -1,0 +1,23 @@
+name: 'Check pull request title'
+
+on:
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+      - edited
+      - synchronize
+
+jobs:
+  lint:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: myparcelnl/actions/setup-app-credentials@v3
+        id: credentials
+        with:
+          app-id: ${{ secrets.MYPARCEL_APP_ID }}
+          private-key: ${{ secrets.MYPARCEL_APP_PRIVATE_KEY }}
+
+      - uses: aslafy-z/conventional-pr-title-action@v3
+        env:
+          GITHUB_TOKEN: ${{ steps.credentials.outputs.token }}
