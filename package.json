@@ -74,7 +74,7 @@
     "@myparcel-eslint/eslint-config-prettier-typescript": "^1.2.4",
     "@myparcel/semantic-release-config": "^4.2.3",
     "@tsconfig/recommended": "^1.0.2",
-    "@vitest/coverage-c8": "^0.29.2",
+    "@vitest/coverage-c8": "^0.32.2",
     "eslint": "^8.35.0",
     "fast-glob": "^3.2.12",
     "husky": "^8.0.3",
