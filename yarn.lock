@@ -5473,15 +5473,15 @@ __metadata:
   linkType: hard
 
 "publint@npm:^0.1.9":
-  version: 0.1.9
-  resolution: "publint@npm:0.1.9"
+  version: 0.1.15
+  resolution: "publint@npm:0.1.15"
   dependencies:
     npm-packlist: ^5.1.3
     picocolors: ^1.0.0
     sade: ^1.8.1
   bin:
     publint: lib/cli.js
-  checksum: 19767c192f743613c0ec71f98ef85ea05a8858a12b70cc2dc61c21bcde35abdb68069f1b204bdbd52dde96123a59720b2f530f460ea1f6a7a0075b9683a59745
+  checksum: 77c9105db6b4b1c71c637d5ed0371087caa12632a0ac06a90ccc271bae1fbfe509605ec5061d1253b4b17740ec95b312d596dd917b16d65cfdcf95feec35f47a
   languageName: node
   linkType: hard
 
