@@ -79,7 +79,7 @@
     "fast-glob": "^3.2.12",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
-    "lint-staged": "^13.1.2",
+    "lint-staged": "^14.0.0",
     "prettier": "^2.8.4",
     "publint": "^0.1.9",
     "tsup": "^6.6.3",
