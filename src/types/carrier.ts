@@ -8,6 +8,7 @@ export enum CarrierId {
   Instabox = 5,
   Dhl = 6,
   Bol = 7,
+  // @deprecated Use CarrierId.Bol instead. Will be removed in the next version
   BolCom = 7,
   Ups = 8,
   DhlForYou = 9,
@@ -23,7 +24,7 @@ export enum CarrierName {
   Instabox = 'instabox',
   Dhl = 'dhl',
   Bol = 'bol.com',
-  // @deprecated Will be removed in the next version
+  // @deprecated Use CarrierName.Bol instead. Will be removed in the next version
   BolCom = 'bol.com',
   Ups = 'ups',
   DhlForYou = 'dhlforyou',
@@ -44,8 +45,7 @@ export const CARRIER_NAMES_TO_IDS = {
   [CarrierName.Dpd]: CarrierId.Dpd,
   [CarrierName.Instabox]: CarrierId.Instabox,
   [CarrierName.Dhl]: CarrierId.Dhl,
-  // @deprecated Will be changed in the next version to: [CarrierName.Bol]: CarrierId.Bol,
-  [CarrierName.BolCom]: CarrierId.BolCom,
+  [CarrierName.Bol]: CarrierId.Bol,
   [CarrierName.Ups]: CarrierId.Ups,
   [CarrierName.DhlForYou]: CarrierId.DhlForYou,
   [CarrierName.DhlParcelConnect]: CarrierId.DhlParcelConnect,
@@ -59,8 +59,7 @@ export const CARRIER_IDS_TO_NAMES = {
   [CarrierId.Dpd]: CarrierName.Dpd,
   [CarrierId.Instabox]: CarrierName.Instabox,
   [CarrierId.Dhl]: CarrierName.Dhl,
-  // @deprecated  Will be changed in the next version to: [CarrierId.Bol]: CarrierName.Bol,
-  [CarrierId.BolCom]: CarrierName.BolCom,
+  [CarrierId.Bol]: CarrierName.Bol,
   [CarrierId.Ups]: CarrierName.Ups,
   [CarrierId.DhlForYou]: CarrierName.DhlForYou,
   [CarrierId.DhlParcelConnect]: CarrierName.DhlParcelConnect,
