@@ -545,12 +545,12 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "4": "dpd",
     "5": "instabox",
     "6": "dhl",
-    "7": "bol",
+    "7": "bol.com",
     "8": "ups",
     "9": "dhlforyou",
   },
   "CARRIER_NAMES_TO_IDS": {
-    "bol": 7,
+    "bol.com": 7,
     "bpost": 2,
     "cheapcargo": 3,
     "dhl": 6,
@@ -587,7 +587,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "Ups": 8,
   },
   "CarrierName": {
-    "bol": "bol",
+    "bol": "bol.com",
     "Bpost": "bpost",
     "CheapCargo": "cheapcargo",
     "Dhl": "dhl",
