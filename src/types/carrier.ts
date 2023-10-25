@@ -21,7 +21,7 @@ export enum CarrierName {
   Dpd = 'dpd',
   Instabox = 'instabox',
   Dhl = 'dhl',
-  Bol = 'bol',
+  Bol = 'bol.com',
   Ups = 'ups',
   DhlForYou = 'dhlforyou',
   DhlParcelConnect = 'dhlparcelconnect',
