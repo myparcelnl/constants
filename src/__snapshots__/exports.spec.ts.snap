@@ -614,6 +614,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "7": "BolCom",
     "8": "Ups",
     "9": "DhlForYou",
+    "Bol": 7,
     "BolCom": 7,
     "Bpost": 2,
     "CheapCargo": 3,
@@ -627,6 +628,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "Ups": 8,
   },
   "CarrierName": {
+    "Bol": "bol.com",
     "BolCom": "bol.com",
     "Bpost": "bpost",
     "CheapCargo": "cheapcargo",
