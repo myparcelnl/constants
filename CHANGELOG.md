@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/myparcelnl/constants/compare/v1.1.0...v1.1.1) (2023-10-26)
+
+
+### :bug: Bug Fixes
+
+* **carriers:** update bol naming ([#70](https://github.com/myparcelnl/constants/issues/70)) ([6b8f28c](https://github.com/myparcelnl/constants/commit/6b8f28c25a8dfc710b4b653c8eefc97ba2a4419a))
+
 ## [1.1.0](https://github.com/myparcelnl/constants/compare/v1.0.0...v1.1.0) (2023-03-08)
 
 
