@@ -8,7 +8,7 @@ export enum CarrierId {
   Instabox = 5,
   Dhl = 6,
   Bol = 7,
-  // @deprecated Use CarrierId.Bol instead. Will be removed in the next version
+  // @deprecated Use CarrierId.Bol instead. Will be removed in the next major version
   BolCom = 7,
   Ups = 8,
   DhlForYou = 9,
@@ -24,7 +24,7 @@ export enum CarrierName {
   Instabox = 'instabox',
   Dhl = 'dhl',
   Bol = 'bol.com',
-  // @deprecated Use CarrierName.Bol instead. Will be removed in the next version
+  // @deprecated Use CarrierName.Bol instead. Will be removed in the next major version
   BolCom = 'bol.com',
   Ups = 'ups',
   DhlForYou = 'dhlforyou',
