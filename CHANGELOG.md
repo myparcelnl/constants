@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/myparcelnl/constants/compare/v1.1.1...v1.1.2) (2023-12-11)
+
+
+### :bug: Bug Fixes
+
+* update final package bundle ([95a16bb](https://github.com/myparcelnl/constants/commit/95a16bb7f923f9d9c639aee3869254bfc4df3325))
+
 ## [1.1.1](https://github.com/myparcelnl/constants/compare/v1.1.0...v1.1.1) (2023-10-26)
 
 
