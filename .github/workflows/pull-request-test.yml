@@ -1,0 +1,16 @@
+name: 'Run tests 🧪'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref_name }}
+  cancel-in-progress: true
+
+on:
+  pull_request:
+    branches:
+      - main
+
+  merge_group:
+
+jobs:
+  test:
+    uses: ./.github/workflows/test.yml
