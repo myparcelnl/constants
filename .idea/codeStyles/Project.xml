@@ -7,7 +7,6 @@
         <option name="TAB_SIZE" value="2" />
       </value>
     </option>
-    <option name="ENABLE_SECOND_REFORMAT" value="true" />
     <option name="SOFT_MARGINS" value="80,120" />
     <CssCodeStyleSettings>
       <option name="HEX_COLOR_UPPER_CASE" value="true" />
