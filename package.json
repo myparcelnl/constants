@@ -21,11 +21,11 @@
     },
     "./helpers": {
       "types": {
-        "import": "./dist/helpers/index.d.ts",
-        "require": "./dist/helpers/index.d.cts"
+        "import": "./dist/index.d.ts",
+        "require": "./dist/index.d.cts"
       },
-      "import": "./dist/helpers/index.js",
-      "require": "./dist/helpers/index.cjs"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     },
     "./countries": {
       "types": {
