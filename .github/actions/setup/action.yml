@@ -1,18 +1,23 @@
 name: 'Setup'
 description: 'Install node dependencies and create build'
 
+inputs:
+  node-version:
+    description: 'Node version to use'
+    default: '20'
+
 runs:
   using: composite
   steps:
     - uses: myparcelnl/actions/yarn-install@v3
       with:
-        node-version: 18
+        node-version: ${{ inputs.node-version }}
 
     - name: 'Cache build'
       uses: actions/cache@v3
       with:
         path: dist
-        key: ${{ runner.os }}-build-${{ hashFiles('package.json', 'yarn.lock', 'src/**') }}
+        key: ${{ runner.os }}-build-${{ inputs.node-version }}-${{ hashFiles('package.json', 'yarn.lock', 'src/**', 'tsup.config.ts', 'tsconfig*.json) }}
 
     - shell: bash
       run: yarn run build
