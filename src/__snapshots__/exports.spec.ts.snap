@@ -844,6 +844,15 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "PrintedDigitalStamp": 14,
     "PrintedLetter": 12,
   },
+  "convertEnumValue": [Function],
+  "toCarrierId": [Function],
+  "toCarrierName": [Function],
+  "toDeliveryTypeId": [Function],
+  "toDeliveryTypeName": [Function],
+  "toPackageTypeId": [Function],
+  "toPackageTypeName": [Function],
+  "toPlatformId": [Function],
+  "toPlatformName": [Function],
 }
 `;
 
