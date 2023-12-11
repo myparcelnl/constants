@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.3](https://github.com/myparcelnl/constants/compare/v1.1.2...v1.1.3) (2023-12-11)
+
+
+### :bug: Bug Fixes
+
+* **bundle:** move helpers into main export ([866009b](https://github.com/myparcelnl/constants/commit/866009be5843703d8870c78d62c4166c9c6d1c97))
+
 ## [1.1.2](https://github.com/myparcelnl/constants/compare/v1.1.1...v1.1.2) (2023-12-11)
 
 
