@@ -17,7 +17,7 @@ runs:
       uses: actions/cache@v3
       with:
         path: dist
-        key: ${{ runner.os }}-build-${{ inputs.node-version }}-${{ hashFiles('package.json', 'yarn.lock', 'src/**', 'tsup.config.ts', 'tsconfig*.json) }}
+        key: ${{ runner.os }}-build-${{ inputs.node-version }}-${{ hashFiles('package.json', 'yarn.lock', 'src/**', 'tsup.config.ts', 'tsconfig*.json') }}
 
     - shell: bash
       run: yarn run build
