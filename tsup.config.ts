@@ -4,8 +4,7 @@ const config: Options = {
   dts: true,
   entry: ['./src/index.ts', './src/countries/index.ts', './src/states/index.ts'],
   format: ['cjs', 'esm'],
-  minify: true,
-  target: 'node16',
+  target: 'esnext',
   tsconfig: 'tsconfig.build.json',
 };
 
