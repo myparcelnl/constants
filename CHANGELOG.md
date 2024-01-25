@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4](https://github.com/myparcelnl/constants/compare/v1.1.3...v1.1.4) (2024-01-25)
+
+
+### :bug: Bug Fixes
+
+* **bundle:** make bundle tree-shakable ([e86fc00](https://github.com/myparcelnl/constants/commit/e86fc005d2d02b26c9e16345a29627ee54179b6d))
+
 ## [1.1.3](https://github.com/myparcelnl/constants/compare/v1.1.2...v1.1.3) (2023-12-11)
 
 
