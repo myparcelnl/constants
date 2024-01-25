@@ -5,6 +5,9 @@
       <excludeFolder url="file://$MODULE_DIR$/.husky" />
       <excludeFolder url="file://$MODULE_DIR$/.yarn" />
       <excludeFolder url="file://$MODULE_DIR$/dist" />
+      <excludePattern pattern="coverage" />
+      <excludePattern pattern="cache" />
+      <excludePattern pattern="dist" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
