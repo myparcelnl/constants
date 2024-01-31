@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.0](https://github.com/myparcelnl/constants/compare/v1.1.4...v1.2.0) (2024-01-31)
+
+
+### :sparkles: New Features
+
+* add small_parcel package type ([#105](https://github.com/myparcelnl/constants/issues/105)) ([b4ac4a3](https://github.com/myparcelnl/constants/commit/b4ac4a3aec6acade939d321637682bb7a0a0dd4c))
+
 ## [1.1.4](https://github.com/myparcelnl/constants/compare/v1.1.3...v1.1.4) (2024-01-25)
 
 
