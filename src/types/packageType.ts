@@ -7,6 +7,7 @@ export enum PackageTypeId {
   Letter = 3,
   DigitalStamp = 4,
   Pallet = 5,
+  SmallParcel = 6,
 }
 
 /** @see https://myparcelnl.github.io/api/#6_A_1 */
@@ -16,6 +17,7 @@ export enum PackageTypeName {
   Letter = 'letter',
   DigitalStamp = 'digital_stamp',
   Pallet = 'pallet',
+  SmallParcel = 'small_parcel',
 }
 
 export type PackageTypeNameOrId = PackageTypeName | PackageTypeId;
@@ -30,6 +32,7 @@ export const PACKAGE_TYPE_NAMES_TO_IDS = {
   [PackageTypeName.Letter]: PackageTypeId.Letter,
   [PackageTypeName.DigitalStamp]: PackageTypeId.DigitalStamp,
   [PackageTypeName.Pallet]: PackageTypeId.Pallet,
+  [PackageTypeName.SmallParcel]: PackageTypeId.SmallParcel,
 } as const;
 
 export const PACKAGE_TYPE_IDS_TO_NAMES = {
@@ -38,4 +41,5 @@ export const PACKAGE_TYPE_IDS_TO_NAMES = {
   [PackageTypeId.Letter]: PackageTypeName.Letter,
   [PackageTypeId.DigitalStamp]: PackageTypeName.DigitalStamp,
   [PackageTypeId.Pallet]: PackageTypeName.Pallet,
+  [PackageTypeId.SmallParcel]: PackageTypeName.SmallParcel,
 } as const;
