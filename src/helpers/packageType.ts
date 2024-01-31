@@ -2,9 +2,9 @@
 import {
   PACKAGE_TYPE_IDS_TO_NAMES,
   PACKAGE_TYPE_NAMES_TO_IDS,
-  PackageTypeId,
-  PackageTypeName,
-  PackageTypeNameOrIdType,
+  type PackageTypeId,
+  type PackageTypeName,
+  type PackageTypeNameOrIdType,
 } from '../types';
 import {convertEnumValue} from './convertEnumValue';
 

@@ -687,6 +687,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "3": "letter",
     "4": "digital_stamp",
     "5": "pallet",
+    "6": "small_parcel",
   },
   "PACKAGE_TYPE_NAMES_TO_IDS": {
     "digital_stamp": 4,
@@ -694,6 +695,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "mailbox": 2,
     "package": 1,
     "pallet": 5,
+    "small_parcel": 6,
   },
   "PLATFORM_IDS_TO_DOMAINS": {
     "1": "myparcel.nl",
@@ -721,11 +723,13 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "3": "Letter",
     "4": "DigitalStamp",
     "5": "Pallet",
+    "6": "SmallParcel",
     "DigitalStamp": 4,
     "Letter": 3,
     "Mailbox": 2,
     "Package": 1,
     "Pallet": 5,
+    "SmallParcel": 6,
   },
   "PackageTypeName": {
     "DigitalStamp": "digital_stamp",
@@ -733,6 +737,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "Mailbox": "mailbox",
     "Package": "package",
     "Pallet": "pallet",
+    "SmallParcel": "small_parcel",
   },
   "PlatformDomain": {
     "Flespakket": "flespakket.nl",
