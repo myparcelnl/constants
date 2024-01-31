@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.0](https://github.com/myparcelnl/constants/compare/v1.1.4...v1.2.0) (2024-01-31)
+
+
+### :sparkles: New Features
+
+* **PacketType:** FE-1277 ([#105](https://github.com/myparcelnl/constants/issues/105)) ([c397860](https://github.com/myparcelnl/constants/commit/c397860a503daa5d2205fe8a148ab83644c7971e))
+
 ## [1.1.4](https://github.com/myparcelnl/constants/compare/v1.1.3...v1.1.4) (2024-01-25)
 
 
