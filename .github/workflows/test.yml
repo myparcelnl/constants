@@ -21,7 +21,7 @@ jobs:
         shell: bash
         run: yarn test:coverage
 
-      - uses: codecov/codecov-action@v3
+      - uses: codecov/codecov-action@v4
         if: matrix.node-version == vars.NODE_VERSION
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
