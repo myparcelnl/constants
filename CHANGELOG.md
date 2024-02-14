@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/myparcelnl/constants/compare/v1.2.0...v2.0.0) (2024-02-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename small_parcel to package_small
+
+### :bug: Bug Fixes
+
+* rename small_parcel to package_small ([#112](https://github.com/myparcelnl/constants/issues/112)) ([6998a21](https://github.com/myparcelnl/constants/commit/6998a21c475b59a471f552134f19969b9f5bd0ac))
+
 ## [1.2.0](https://github.com/myparcelnl/constants/compare/v1.1.4...v1.2.0) (2024-01-31)
 
 
