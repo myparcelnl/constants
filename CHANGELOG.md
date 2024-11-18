@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.0](https://github.com/myparcelnl/constants/compare/v2.0.0...v2.1.0) (2024-11-18)
+
+
+### :sparkles: New Features
+
+* **deliveryType:** support UPS `express` delivery type ([#124](https://github.com/myparcelnl/constants/issues/124)) ([d7d3513](https://github.com/myparcelnl/constants/commit/d7d35134eb601ed43f6c77c0f8641ed806193419))
+
 ## [2.0.0](https://github.com/myparcelnl/constants/compare/v1.2.0...v2.0.0) (2024-02-14)
 
 
