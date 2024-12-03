@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.0](https://github.com/myparcelnl/constants/compare/v2.1.0...v2.2.0) (2024-12-03)
+
+
+### :sparkles: New Features
+
+* add ups collect / collection shipment option ([#126](https://github.com/myparcelnl/constants/issues/126)) ([d876da6](https://github.com/myparcelnl/constants/commit/d876da6201c36f86dbaa1a1d0876964a7da44744))
+
 ## [2.1.0](https://github.com/myparcelnl/constants/compare/v2.0.0...v2.1.0) (2024-11-18)
 
 
