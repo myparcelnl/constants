@@ -5,6 +5,7 @@
  */
 export enum ShipmentOptionName {
   AgeCheck = 'age_check',
+  Collect = 'collect',
   CooledDelivery = 'cooled_delivery',
   Insurance = 'insurance',
   LargeFormat = 'large_format',
