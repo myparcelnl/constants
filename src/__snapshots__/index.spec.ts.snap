@@ -565,8 +565,8 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "instabox": 5,
     "postnl": 1,
     "ups": 8,
-    "upsstandard": 12,
     "upsexpresssaver": 13,
+    "upsstandard": 12,
   },
   "CarrierId": {
     "1": "PostNl",
