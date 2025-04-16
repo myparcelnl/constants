@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.3.0](https://github.com/myparcelnl/constants/compare/v2.2.0...v2.3.0) (2025-04-16)
+
+
+### :sparkles: New Features
+
+* CI-111 - add GLS, UPS Standard & UPS Express Saver ([#127](https://github.com/myparcelnl/constants/issues/127)) ([6f52cda](https://github.com/myparcelnl/constants/commit/6f52cda2a329049cebf13fc52065b7ed3535ecce))
+
 ## [2.2.0](https://github.com/myparcelnl/constants/compare/v2.1.0...v2.2.0) (2024-12-03)
 
 
