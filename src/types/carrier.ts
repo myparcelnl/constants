@@ -14,6 +14,9 @@ export enum CarrierId {
   DhlForYou = 9,
   DhlParcelConnect = 10,
   DhlEuroPlus = 11,
+  UpsStandard = 12,
+  UpsExpressSaver = 13,
+  Gls = 14,
 }
 
 export enum CarrierName {
@@ -30,6 +33,9 @@ export enum CarrierName {
   DhlForYou = 'dhlforyou',
   DhlParcelConnect = 'dhlparcelconnect',
   DhlEuroPlus = 'dhleuroplus',
+  UpsStandard = 'upsstandard',
+  UpsExpressSaver = 'upsexpresssaver',
+  Gls = 'gls',
 }
 
 export type CarrierNameOrId = CarrierName | CarrierId;
@@ -50,6 +56,9 @@ export const CARRIER_NAMES_TO_IDS = {
   [CarrierName.DhlForYou]: CarrierId.DhlForYou,
   [CarrierName.DhlParcelConnect]: CarrierId.DhlParcelConnect,
   [CarrierName.DhlEuroPlus]: CarrierId.DhlEuroPlus,
+  [CarrierName.UpsStandard]: CarrierId.UpsStandard,
+  [CarrierName.UpsExpressSaver]: CarrierId.UpsExpressSaver,
+  [CarrierName.Gls]: CarrierId.Gls,
 } as const;
 
 export const CARRIER_IDS_TO_NAMES = {
@@ -64,4 +73,7 @@ export const CARRIER_IDS_TO_NAMES = {
   [CarrierId.DhlForYou]: CarrierName.DhlForYou,
   [CarrierId.DhlParcelConnect]: CarrierName.DhlParcelConnect,
   [CarrierId.DhlEuroPlus]: CarrierName.DhlEuroPlus,
+  [CarrierId.UpsStandard]: CarrierName.UpsStandard,
+  [CarrierId.UpsExpressSaver]: CarrierName.UpsExpressSaver,
+  [CarrierId.Gls]: CarrierName.Gls,
 } as const;
