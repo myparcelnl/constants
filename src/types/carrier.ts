@@ -10,6 +10,7 @@ export enum CarrierId {
   Bol = 7,
   // @deprecated Use CarrierId.Bol instead. Will be removed in the next major version
   BolCom = 7,
+  // @deprecated Use CarrierId.UpsStandard instead.
   Ups = 8,
   DhlForYou = 9,
   DhlParcelConnect = 10,
@@ -29,6 +30,7 @@ export enum CarrierName {
   Bol = 'bol.com',
   // @deprecated Use CarrierName.Bol instead. Will be removed in the next major version
   BolCom = 'bol.com',
+  // @deprecated Use CarrierName.UpsStandard instead.
   Ups = 'ups',
   DhlForYou = 'dhlforyou',
   DhlParcelConnect = 'dhlparcelconnect',
