@@ -19,6 +19,7 @@ export enum CarrierId {
   UpsExpressSaver = 13,
   Gls = 14,
   Brt = 15,
+  Trunkrs = 16,
 }
 
 export enum CarrierName {
@@ -40,6 +41,7 @@ export enum CarrierName {
   UpsExpressSaver = 'upsexpresssaver',
   Gls = 'gls',
   Brt = 'brt',
+  Trunkrs = 'trunkrs'
 }
 
 export type CarrierNameOrId = CarrierName | CarrierId;
@@ -64,6 +66,7 @@ export const CARRIER_NAMES_TO_IDS = {
   [CarrierName.UpsExpressSaver]: CarrierId.UpsExpressSaver,
   [CarrierName.Gls]: CarrierId.Gls,
   [CarrierName.Brt]: CarrierId.Brt,
+  [CarrierName.Trunkrs]: CarrierId.Trunkrs,
 } as const;
 
 export const CARRIER_IDS_TO_NAMES = {
@@ -82,4 +85,5 @@ export const CARRIER_IDS_TO_NAMES = {
   [CarrierId.UpsExpressSaver]: CarrierName.UpsExpressSaver,
   [CarrierId.Gls]: CarrierName.Gls,
   [CarrierId.Brt]: CarrierName.Brt,
+  [CarrierId.Trunkrs]: CarrierName.Trunkrs,
 } as const;
