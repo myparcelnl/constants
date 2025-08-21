@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.5.0](https://github.com/myparcelnl/constants/compare/v2.4.0...v2.5.0) (2025-08-21)
+
+
+### :sparkles: New Features
+
+* **Trunkrs:** CI-304 - add Trunkrs ([#129](https://github.com/myparcelnl/constants/issues/129)) ([12ab3f9](https://github.com/myparcelnl/constants/commit/12ab3f9cf043ba86133262f3dcca149406a083f9))
+
 ## [2.4.0](https://github.com/myparcelnl/constants/compare/v2.3.0...v2.4.0) (2025-07-22)
 
 
