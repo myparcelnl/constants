@@ -1,6 +1,6 @@
 {
-  "name": "@myparcel/constants",
-  "version": "2.5.0",
+  "name": "@myparcel-dev/constants",
+  "version": "3.0.0",
   "description": "Collection of constant values for use with the MyParcel API",
   "keywords": [
     "myparcel",
@@ -74,19 +74,19 @@
       "sh -c \"publint run\""
     ]
   },
-  "prettier": "@myparcel/prettier-config",
+  "prettier": "@myparcel-dev/prettier-config",
   "release": {
-    "extends": "@myparcel/semantic-release-config/github-npm"
+    "extends": "@myparcel-dev/semantic-release-config/github-npm"
   },
   "dependencies": {
-    "@myparcel/ts-utils": "^1.7.0"
+    "@myparcel-dev/ts-utils": "^2.0.0"
   },
   "devDependencies": {
     "@myparcel-eslint/eslint-config-esnext": "^1.2.3",
     "@myparcel-eslint/eslint-config-node": "^1.2.3",
     "@myparcel-eslint/eslint-config-prettier": "^1.2.3",
     "@myparcel-eslint/eslint-config-prettier-typescript": "^1.2.4",
-    "@myparcel/semantic-release-config": "^5.0.0",
+    "@myparcel-dev/semantic-release-config": "^6.0.0",
     "@tsconfig/recommended": "^1.0.2",
     "@types/node": "^20.0.0",
     "@vitest/coverage-v8": "^1.0.0",
