@@ -585,6 +585,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "14": "gls",
     "15": "brt",
     "16": "trunkrs",
+    "17": "inpost",
     "2": "bpost",
     "3": "cheapcargo",
     "4": "dpd",
@@ -605,6 +606,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "dhlparcelconnect": 10,
     "dpd": 4,
     "gls": 14,
+    "inpost": 17,
     "instabox": 5,
     "postnl": 1,
     "trunkrs": 16,
@@ -621,6 +623,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "14": "Gls",
     "15": "Brt",
     "16": "Trunkrs",
+    "17": "InPost",
     "2": "Bpost",
     "3": "CheapCargo",
     "4": "Dpd",
@@ -640,6 +643,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "DhlParcelConnect": 10,
     "Dpd": 4,
     "Gls": 14,
+    "InPost": 17,
     "Instabox": 5,
     "PostNl": 1,
     "Trunkrs": 16,
@@ -659,6 +663,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "DhlParcelConnect": "dhlparcelconnect",
     "Dpd": "dpd",
     "Gls": "gls",
+    "InPost": "inpost"
     "Instabox": "instabox",
     "PostNl": "postnl",
     "Trunkrs": "trunkrs",
@@ -1026,3 +1031,4 @@ exports[`module exports > exposes the correct data from states 1`] = `
   "YUKON": "YT",
 }
 `;
+
