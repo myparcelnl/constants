@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.6.0](https://github.com/myparcelnl/constants/compare/v2.5.0...v2.6.0) (2025-11-18)
+
+
+### :sparkles: New Features
+
+* **InPost:** CI-537 - add InPost carrier ([#130](https://github.com/myparcelnl/constants/issues/130)) ([a65d81c](https://github.com/myparcelnl/constants/commit/a65d81c58810958557e24727c93d1c2659fef1b3))
+
 ## [2.5.0](https://github.com/myparcelnl/constants/compare/v2.4.0...v2.5.0) (2025-08-21)
 
 
