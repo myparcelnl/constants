@@ -79,14 +79,14 @@
     "extends": "@myparcel-dev/semantic-release-config/github-npm"
   },
   "dependencies": {
-    "@myparcel-dev/ts-utils": "^2.0.0"
+    "@myparcel-dev/ts-utils": "^1.15.0"
   },
   "devDependencies": {
+    "@myparcel-dev/semantic-release-config": "^6.0.0",
     "@myparcel-eslint/eslint-config-esnext": "^1.2.3",
     "@myparcel-eslint/eslint-config-node": "^1.2.3",
     "@myparcel-eslint/eslint-config-prettier": "^1.2.3",
     "@myparcel-eslint/eslint-config-prettier-typescript": "^1.2.4",
-    "@myparcel-dev/semantic-release-config": "^6.0.0",
     "@tsconfig/recommended": "^1.0.2",
     "@types/node": "^20.0.0",
     "@vitest/coverage-v8": "^1.0.0",
