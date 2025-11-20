@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.7.0](https://github.com/myparcelnl/constants/compare/v2.6.0...v2.7.0) (2025-11-20)
+
+
+### :sparkles: New Features
+
+* migrate to [@myparcel-dev](https://github.com/myparcel-dev) scope ([#131](https://github.com/myparcelnl/constants/issues/131)) ([eda3f2d](https://github.com/myparcelnl/constants/commit/eda3f2d1ae6a5f137fb0f8d17ee7527abd178c1a))
+
 ## [2.6.0](https://github.com/myparcelnl/constants/compare/v2.5.0...v2.6.0) (2025-11-18)
 
 

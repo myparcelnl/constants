@@ -1,6 +1,6 @@
 {
   "name": "@myparcel-dev/constants",
-  "version": "3.0.0",
+  "version": "2.7.0",
   "description": "Collection of constant values for use with the MyParcel API",
   "keywords": [
     "myparcel",
