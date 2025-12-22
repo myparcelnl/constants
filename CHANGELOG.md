@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.8.0](https://github.com/myparcelnl/constants/compare/v2.7.3...v2.8.0) (2025-12-22)
+
+
+### :sparkles: New Features
+
+* add platform italy ([#132](https://github.com/myparcelnl/constants/issues/132)) ([3e65178](https://github.com/myparcelnl/constants/commit/3e65178844749b807f79cc4fc16626b6e8d27360))
+
 ## [2.7.3](https://github.com/myparcelnl/constants/compare/v2.7.2...v2.7.3) (2025-12-22)
 
 ## [2.7.2](https://github.com/myparcelnl/constants/compare/v2.7.1...v2.7.2) (2025-12-22)
