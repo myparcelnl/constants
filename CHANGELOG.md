@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.9.0](https://github.com/myparcelnl/constants/compare/v2.8.0...v2.9.0) (2025-12-22)
+
+
+### :sparkles: New Features
+
+* add priority_delivery shipment option ([#138](https://github.com/myparcelnl/constants/issues/138)) ([444120c](https://github.com/myparcelnl/constants/commit/444120c39b9938b43b86e49d9194de78307893f8))
+
 ## [2.8.0](https://github.com/myparcelnl/constants/compare/v2.7.3...v2.8.0) (2025-12-22)
 
 
