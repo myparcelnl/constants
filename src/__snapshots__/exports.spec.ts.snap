@@ -841,6 +841,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "LargeFormat": "large_format",
     "OnlyRecipient": "only_recipient",
     "PrinterlessReturn": "printerless_return",
+    "PriorityDelivery": "priority_delivery",
     "Return": "return",
     "SameDayDelivery": "same_day_delivery",
     "Signature": "signature",

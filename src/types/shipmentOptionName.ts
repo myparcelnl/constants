@@ -11,6 +11,7 @@ export enum ShipmentOptionName {
   LargeFormat = 'large_format',
   OnlyRecipient = 'only_recipient',
   PrinterlessReturn = 'printerless_return',
+  PriorityDelivery = 'priority_delivery',
   Return = 'return',
   SameDayDelivery = 'same_day_delivery',
   Signature = 'signature',
