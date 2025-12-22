@@ -736,20 +736,24 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "1": "myparcel.nl",
     "2": "flespakket.nl",
     "3": "sendmyparcel.be",
+    "6": "myparcel.com",
   },
   "PLATFORM_IDS_TO_NAMES": {
     "1": "myparcel",
     "2": "flespakket",
     "3": "belgie",
+    "6": "italy",
   },
   "PLATFORM_NAMES_TO_DOMAINS": {
     "belgie": "sendmyparcel.be",
     "flespakket": "flespakket.nl",
+    "italy": "myparcel.com",
     "myparcel": "myparcel.nl",
   },
   "PLATFORM_NAMES_TO_IDS": {
     "belgie": 3,
     "flespakket": 2,
+    "italy": 6,
     "myparcel": 1,
   },
   "PackageTypeId": {
@@ -776,6 +780,7 @@ exports[`module exports > exposes the correct data from index 1`] = `
   },
   "PlatformDomain": {
     "Flespakket": "flespakket.nl",
+    "Italy": "myparcel.com",
     "MyParcel": "myparcel.nl",
     "SendMyParcel": "sendmyparcel.be",
   },
@@ -783,12 +788,15 @@ exports[`module exports > exposes the correct data from index 1`] = `
     "1": "MyParcel",
     "2": "Flespakket",
     "3": "SendMyParcel",
+    "6": "Italy",
     "Flespakket": 2,
+    "Italy": 6,
     "MyParcel": 1,
     "SendMyParcel": 3,
   },
   "PlatformName": {
     "Flespakket": "flespakket",
+    "Italy": "italy",
     "MyParcel": "myparcel",
     "SendMyParcel": "belgie",
   },
@@ -1031,4 +1039,3 @@ exports[`module exports > exposes the correct data from states 1`] = `
   "YUKON": "YT",
 }
 `;
-
