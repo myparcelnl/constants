@@ -24,13 +24,13 @@ jobs:
           token: ${{ secrets.GH_REPO_TOKEN }}
 
       # TODO: Switch to v4 with app credentials when GitHub apps are allowed to bypass status checks. https://github.com/orgs/community/discussions/43460
-      - uses: myparcelnl/actions/setup-git-credentials@v2
+      - uses: myparcelnl/actions/setup-git-credentials@v5
         with:
           token: ${{ secrets.GH_REPO_TOKEN }}
 
       - uses: ./.github/actions/setup
 
-      - uses: myparcelnl/actions/semantic-release@v4
+      - uses: myparcelnl/actions/semantic-release@v5
         with:
           token: ${{ secrets.GH_REPO_TOKEN }}
         env:
