@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.9.1](https://github.com/myparcelnl/constants/compare/v2.9.0...v2.9.1) (2026-02-19)
+
+
+### :bug: Bug Fixes
+
+* **ci:** use NPM_TOKEN secret name ([556c7ad](https://github.com/myparcelnl/constants/commit/556c7ad99459a9015f04da5a597d13cc505a0683))
+
 ## [2.9.0](https://github.com/myparcelnl/constants/compare/v2.8.0...v2.9.0) (2025-12-22)
 
 
