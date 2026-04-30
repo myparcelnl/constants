@@ -101,10 +101,13 @@
     "typescript": "^5.0.0",
     "vitest": "^1.0.0"
   },
-  "packageManager": "yarn@4.5.1",
+  "packageManager": "yarn@4.12.0",
   "volta": {
-    "node": "20.10.0",
-    "yarn": "4.5.1"
+    "node": "24.14.0",
+    "yarn": "4.12.0"
+  },
+  "resolutions": {
+    "tar": "7.5.11"
   },
   "publishConfig": {
     "access": "public"
