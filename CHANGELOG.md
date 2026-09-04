@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.10.1](https://github.com/myparcelnl/constants/compare/v2.10.0...v2.10.1) (2026-09-04)
+
+
+### :bug: Bug Fixes
+
+* **ci:** authenticate the release job through the app ([#172](https://github.com/myparcelnl/constants/issues/172)) ([2e9b25f](https://github.com/myparcelnl/constants/commit/2e9b25f0242a99a3780ed062bab094bc457cfdb2)), closes [#140](https://github.com/myparcelnl/constants/issues/140)
+
 ## [2.10.0](https://github.com/myparcelnl/constants/compare/v2.9.2...v2.10.0) (2026-05-28)
 
 
