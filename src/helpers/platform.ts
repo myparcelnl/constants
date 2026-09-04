@@ -1,6 +1,12 @@
 // noinspection JSUnusedGlobalSymbols
 
-import {PLATFORM_IDS_TO_NAMES, PLATFORM_NAMES_TO_IDS, PlatformId, PlatformName, PlatformNameOrIdType} from '../types';
+import {
+  PLATFORM_IDS_TO_NAMES,
+  PLATFORM_NAMES_TO_IDS,
+  type PlatformId,
+  type PlatformName,
+  type PlatformNameOrIdType,
+} from '../types';
 import {convertEnumValue} from './convertEnumValue';
 
 export const toPlatformName = (carrier: PlatformNameOrIdType): PlatformName => {

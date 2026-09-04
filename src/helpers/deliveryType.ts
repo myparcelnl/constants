@@ -3,9 +3,9 @@
 import {
   DELIVERY_TYPE_IDS_TO_NAMES,
   DELIVERY_TYPE_NAMES_TO_IDS,
-  DeliveryTypeId,
-  DeliveryTypeName,
-  DeliveryTypeNameOrIdType,
+  type DeliveryTypeId,
+  type DeliveryTypeName,
+  type DeliveryTypeNameOrIdType,
 } from '../types';
 import {convertEnumValue} from './convertEnumValue';
 

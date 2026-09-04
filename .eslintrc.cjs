@@ -1,8 +1,8 @@
 module.exports = {
   root: true,
   extends: [
-    '@myparcel-eslint/eslint-config-esnext',
-    '@myparcel-eslint/eslint-config-node',
+    '@myparcel-dev/eslint-config-esnext',
+    '@myparcel-dev/eslint-config-node',
   ],
   overrides: [
     {
@@ -10,7 +10,7 @@ module.exports = {
         './**/*.ts',
       ],
       extends: [
-        '@myparcel-eslint/eslint-config-prettier-typescript',
+        '@myparcel-dev/eslint-config-prettier-typescript',
       ],
       rules: {
         'class-methods-use-this': 'off',
