@@ -23,15 +23,16 @@ jobs:
           persist-credentials: false
           token: ${{ secrets.GH_REPO_TOKEN }}
 
-      # TODO: Switch to v4 with app credentials when GitHub apps are allowed to bypass status checks. https://github.com/orgs/community/discussions/43460
       - uses: myparcelnl/actions/setup-git-credentials@v5
+        id: credentials
         with:
-          token: ${{ secrets.GH_REPO_TOKEN }}
+          app-id: ${{ secrets.MYPARCEL_APP_ID }}
+          private-key: ${{ secrets.MYPARCEL_APP_PRIVATE_KEY }}
 
       - uses: ./.github/actions/setup
 
       - uses: myparcelnl/actions/semantic-release@v5
         with:
-          token: ${{ secrets.GH_REPO_TOKEN }}
+          token: ${{ steps.credentials.outputs.token }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
