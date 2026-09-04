@@ -23,16 +23,17 @@ jobs:
           persist-credentials: false
           token: ${{ secrets.GH_REPO_TOKEN }}
 
-      - uses: myparcelnl/actions/setup-git-credentials@v5
-        id: credentials
+      # Pinned to v2. From v3 on this authenticates through the GitHub app, and the app token
+      # cannot push to main: it is not exempt from the merge queue, MyParcelBot is.
+      # https://github.com/orgs/community/discussions/43460
+      - uses: myparcelnl/actions/setup-git-credentials@v2
         with:
-          app-id: ${{ secrets.MYPARCEL_APP_ID }}
-          private-key: ${{ secrets.MYPARCEL_APP_PRIVATE_KEY }}
+          token: ${{ secrets.GH_REPO_TOKEN }}
 
       - uses: ./.github/actions/setup
 
       - uses: myparcelnl/actions/semantic-release@v5
         with:
-          token: ${{ steps.credentials.outputs.token }}
+          token: ${{ secrets.GH_REPO_TOKEN }}
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
