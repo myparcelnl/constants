@@ -6,29 +6,19 @@ on:
 jobs:
   test:
     runs-on: ubuntu-22.04
-    strategy:
-      fail-fast: false
-      matrix:
-        node-version: [ 22, 24 ]
     steps:
       - uses: actions/checkout@v7
 
       - uses: ./.github/actions/setup
-        with:
-          node-version: ${{ matrix.node-version }}
 
-      # The volta pin in package.json wins over the node version volta installs, so
-      # the matrix only reaches the tests through volta run.
       - name: 'Run tests'
         shell: bash
-        run: volta run --node ${{ matrix.node-version }} yarn test:coverage
+        run: pnpm test:coverage
 
       - uses: codecov/codecov-action@v7
-        if: matrix.node-version == vars.NODE_VERSION
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
 
       - name: 'Run publint'
-        if: matrix.node-version == vars.NODE_VERSION
         shell: bash
-        run: npx -q publint
+        run: pnpm exec publint
