@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.0](https://github.com/myparcelnl/constants/compare/v2.10.8...v3.0.0) (2026-11-18)
+
+### ⚠ BREAKING CHANGES
+
+* - requires Node.js 24.21 or later; Node.js 22 is no longer supported
+
+  ---------
+
+### :sparkles: New Features
+
+* move from Yarn to pnpm and require Node.js 24 ([#210](https://github.com/myparcelnl/constants/issues/210)) ([3f701bc](https://github.com/myparcelnl/constants/commit/3f701bc9b01fd0a74d00f842abefea07ce946062))
+
 ## [2.10.8](https://github.com/myparcelnl/constants/compare/v2.10.7...v2.10.8) (2026-11-12)
 
 ## [2.10.7](https://github.com/myparcelnl/constants/compare/v2.10.6...v2.10.7) (2026-11-12)
